@@ -1,0 +1,5 @@
+extends layout
+
+block content
+    include mixins/restaurantForm
+    +restuarantForm(restaurant, `/add`, 'add', 'Add Restaurant')
